@@ -1,0 +1,34 @@
+.itemDiv {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+.itemCard {
+    /* border: 1px solid blue; */
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.card {
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 5px;
+}
+
+.imageBox {
+    border: 1px solid #ccc;
+}
+
+.textBox {
+    font-size: 0.5rem;
+}

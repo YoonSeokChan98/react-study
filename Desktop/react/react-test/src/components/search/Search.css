@@ -1,0 +1,12 @@
+.searchBox {
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.searchInput {
+    border: none;
+    width: 90%;
+}
